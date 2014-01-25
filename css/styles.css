@@ -1,0 +1,409 @@
+
+body,
+h1,h2,h3,h4,h5,h6{
+	
+	padding-bottom: 00px;
+	 font-family: "Geo Sans Light";
+   -webkit-font-smoothing: antialiased;  
+   -webkit-text-stroke: 0.6px;
+}
+
+
+	.navbar, .navbar-default , .navbar-fixed-top{
+		
+		padding-top: 15px; 
+		padding-bottom: 15px;
+		-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+		-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8); 
+		box-shadow: 0 0 20px rgba(0,0,0,0.8); 
+	}
+	
+	
+	.carousel{
+		margin : 6.5% 10% 10% 10%; 
+		-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8); 
+		-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+		box-shadow: 0 0 20px rgba(0,0,0,0.8);	
+	}
+	
+	
+	#dvMain2{
+		
+	-webkit-box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-o-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	padding-right: 35%;
+	}
+	#dvMain5{
+		overflow: auto; 
+		padding-top: 100px;
+		width: 100%; 
+		padding-bottom: 100px; 
+		background-image: url('../images/content_bg.jpg');
+		background-repeat: repeat;
+	}
+	
+	#dvMain6{
+	width: 100%;
+	background-color: rgba(205, 219, 39, 1); 
+	padding-top: 100px;	
+	-webkit-box-shadow: 0 0 20px #000;
+	-moz-box-shadow: 0 0 20px #000;
+	-o-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
+		
+	}
+	
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	
+font-family: "Geo Sans Light";
+text-transform: uppercase;
+
+color: #0080ff;
+font-size: 23px;
+background: none;	
+	
+	}
+	
+	
+.navbar,
+.navbar-default{
+font-family: "Geo Sans Light";
+		font-size: 20px;
+	}
+		
+#content{
+	margin : 20px auto 20px auto;
+	padding	: 20px;
+	border : 1px solid #333;
+	width : 900px;
+	height	: auto;
+	background : #FFF;
+	position : relative;
+	text-align : left;
+}
+
+#backtotop {
+	cursor : pointer;
+	display : none;
+	margin : 0px 0px 0px 0px;
+	position : fixed;
+	bottom : 10px;
+	font-size : 90%;
+	padding	: 10px;
+	width : 40px;
+	text-align : center;
+	background-color : #000;
+	-webkit-border-radius : 50px;
+	-moz-border-radius : 50px;
+	border-radius : 50px;
+	filter : alpha(opacity=60);
+	-khtml-opacity : 0.6;
+	-moz-opacity : 0.6;
+	opacity	: 0.6;
+	color : #FFF;
+	
+	z-index	: 1000;
+}
+#backtotop:hover
+{
+	filter : alpha(opacity=90);
+	-khtml-opacity : 0.9;
+	-moz-opacity : 0.9;
+	opacity	: 0.9;
+}
+
+
+.carousel-control {
+	width: 1%;
+}
+
+
+.carousel-control.left {
+  background-image: none;
+
+
+  
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+ background-image: none;
+
+}
+
+.carousel-indicators li {
+	margin: 0 0 -60px 0px;
+}
+
+.carousel-indicators .active {
+	margin: 0 0 -60px 0px;
+}
+
+.carousel-caption {
+margin: 0 0 200px 0;
+}
+
+
+.carousel-caption p {
+ font-family: "Geo Sans Light";
+    font-size: 40px;
+}
+
+
+.prss{
+
+	background-color: #ffffff;
+	box-shadow: 0 0 40px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 40px rgba(0,0,0,0.8);
+	
+	
+}
+
+
+
+.pblogbtn{
+	
+
+	margin-left: 40%; 
+	margin-top: 40px; 
+	border-radius: 00px;
+	word-spacing: 5px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+
+	.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.78);
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	
+	.ppanel{
+	
+	
+	cursor: pointer;
+	height: 300px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 275px;
+	margin-left: 25px;
+	
+
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+		box-shadow: 0 0 20px rgba(0,0,0,0.8);
+	
+	
+	
+	background-color: #ffffff;
+	
+	}
+
+
+/* Image Box Style */
+ .box,
+ .pbox{
+
+}
+ 
+
+.box .caption {
+	width: 275px;
+	height: 320px;	
+	bottom: 240px;
+	text-align: left;
+	padding: 15px;
+	background-color: rgba(68, 50, 102, 0.88);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all .9s ease-out;
+		-moz-transition: all .9s ease-out;
+		-o-transition: all .9s ease-out;
+		-ms-transition: all .9s ease-out;	
+		transition: all .9s ease-out;
+	left: 0;
+	font-size: 23px;
+	
+}
+
+
+
+
+.box:hover .caption {
+	-moz-transform: translateY(80%);
+	-o-transform: translateY(80%);
+	-webkit-transform: translateY(80%);
+	opacity: 1;
+	transform: translateY(80%);	
+}
+	
+	
+	
+.pbox .pcaption {
+	
+	width: 400px;
+	height:75px;	
+	text-align: left;
+	padding: 15px;
+	background-color: #eea236;
+	position: fixed;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all .9s ease-out;
+		-moz-transition: all .9s ease-out;
+		-o-transition: all .9s ease-out;
+		-ms-transition: all .9s ease-out;	
+		transition: all .9s ease-out;
+	right: -360px;
+
+}
+
+
+
+
+.pbox:hover .pcaption {
+	-moz-transform: translateX(-80%);
+	-o-transform: translateX(-80%);
+	-webkit-transform: translateX(-80%);
+	opacity: 1;
+	transform: translateX(-80%);	
+}
+
+	@font-face {
+    font-family: "Geo Sans Light";
+    src: url('../fonts/GeosansLight.ttf') format("truetype"); 
+}
+
+
+
+.pimg:hover{
+-webkit-box-shadow: 1px 1px 1px 1px #c0c0c0;
+-moz-box-shadow: 1px 1px 1px 1px #c0c0c0;
+box-shadow: 1px 1px 1px 1px #c0c0c0;
+
+}
+
+
+
+
+
+.client .col-md-2
+{
+ margin-left: 20%;
+ margin-top: 2%; 
+ width: 250px;
+ height: 75px;
+	
+	
+}
+
+.picon,
+.iconp{}
+
+
+#pmed:hover .iconp{	color: #ff0000;}
+#pmed:hover .picon{	color: cornflowerblue; }
+
+
+#pup:hover .iconp{	color: #0000a0; text-shadow: 2px 2px 2px #ffffff}
+#pup:hover .picon{	color: gold; }
+
+
+#pwing:hover .iconp{	color: #e6e600;}
+#pwing:hover .picon{	color: #808080; }
+
+#pcod:hover .iconp{	color: #a5e916;}
+#pcod:hover .picon{	color: #ff0080;  }
+
+
+
+
+
+
+@media (max-width: 767px) {
+  #myCarousel{ display: none; }
+  
+    
+  .pblogbtn
+  {
+  	visibility: visible;
+  	margin-left: 20%; 
+	margin-top: 40px; 
+	margin-bottom: 30px;
+	border-radius: 00px;
+	word-spacing: 5px;
+	color: #ffffff;
+	
+  }
+	
+
+
+.picon{
+
+	display: none; 
+}
+
+.iconp{
+
+font-size: 3em ;
+}
+  	
+
+}
+
+
+
+
+@media (max-width: 510px) {  
+	
+.iconp{
+	
+	
+	font-size: 2em;
+}
+
+#dvMain2
+{
+	
+	padding-right: 15%;
+}
+}
+
+
+@media (max-width: 460px) {  
+	
+.iconp{
+	
+	
+	font-size: 1em;
+}
+}
+}
+
+
+
